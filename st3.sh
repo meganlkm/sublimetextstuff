@@ -34,9 +34,9 @@ function sublp () {
 }
 
 # make package
-# Usage: makest3pkg {package_name} [path_to_source]
-function makest3pkg() {
-    usage="Usage: makest3pkg {package_name} [path_to_source]";
+# Usage: mkst3pkg {package_name} [path_to_source]
+function mkst3pkg() {
+    usage="Usage: mkst3pkg {package_name} [path_to_source]";
     if [ $# -eq 0 ]; then
         echo $usage;
         return 1;
