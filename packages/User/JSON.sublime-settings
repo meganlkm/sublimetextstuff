@@ -1,0 +1,9 @@
+{
+    "color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme",
+	"extensions":
+	[
+		".csslintrc",
+		".jshintrc",
+		".jscsrc"
+	]
+}

@@ -1,0 +1,6 @@
+[
+    { "keys": ["ctrl+shift+."], "command": "scroll_width", "args": {"amount": 30 } },
+    { "keys": ["ctrl+shift+,"], "command": "scroll_width", "args": {"amount": -30 } },
+    { "keys": ["ctrl+shift+f5"], "command": "sort_lines", "args": {"case_sensitive": false} },
+    { "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar" }
+]

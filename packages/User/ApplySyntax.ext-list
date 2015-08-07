@@ -1,0 +1,29 @@
+{
+	"HTML (Rails)":
+	[
+		"html.erb"
+	],
+	"INI":
+	[
+		".gitattributes",
+		".gitconfig",
+		".gitignore",
+		".npmrc",
+		"ini.dist"
+	],
+	"JSON":
+	[
+		".csslintrc",
+		".jscsrc",
+		".jshintrc"
+	],
+	"Shell-Unix-Generic":
+	[
+		"env"
+	],
+	"requirementstxt":
+	[
+		"pip",
+		"txt"
+	]
+}

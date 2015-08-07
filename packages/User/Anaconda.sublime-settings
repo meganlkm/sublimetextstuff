@@ -1,0 +1,11 @@
+{
+    "anaconda_gutter_theme": "basic",
+    "anaconda_linter_mark_style": "none",
+    "anaconda_linter_underlines": true,
+    "complete_parameters": true,
+    "display_signatures": true,
+    "pep257": false,
+    "validate_imports": true,
+    "rulers": [120],
+    "wrap_width": 100
+}

@@ -1,0 +1,23 @@
+{
+    // This setting contains a dictionary of aliases. The keys represent the
+    // alias names, the values represent the paths.
+    // NOTE: These should be absolute paths. Also, these paths should
+    // match your systems convention. For example, Windows machines should
+    // have paths similar to "C:\\Users\\username\\Desktop". *nix systems should
+    // have paths similar to "/home/username/desktop".
+    "alias": {
+        "dev": "~/dev",
+        "test": "~/dev/test",
+        "testpy": "~/dev/test/python",
+    },
+
+    // A boolean specifying if folders should automatically refresh and update the sidebar.
+    // In some builds, the sidebar does not refresh when contents of project folder are updated.
+    // This setting is required to refresh the sidebar in these circumstances.
+    // false by default
+    "auto_refresh_sidebar": true,
+
+    // A string specifying the type of auto completion to use. Valid values are
+    // "windows" or "nix"
+    "completion_type": "nix"
+}
