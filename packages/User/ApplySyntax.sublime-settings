@@ -1,14 +1,6 @@
-
 {
-    // If you want exceptions reraised so you can see them in the console, change this to true.
     "reraise_exceptions": false,
-
-    // If you want to have a syntax applied when new files are created, set new_file_syntax to the name of the syntax to use.
-    // The format is exactly the same as "name" in the rules below. For example, if you want to have a new file use
-    // JavaScript syntax, set new_file_syntax to 'JavaScript'.
     "new_file_syntax": false,
-
-    // Put your custom syntax rules here:
     "syntaxes": [
         {
             "name": "requirementstxt/requirementstxt",
@@ -28,6 +20,16 @@
         {
             "name": "Regular Expressions/Regular Expression",
             "extensions": ["regex", "re"]
+        },
+        {
+            // This rule requires the INI plugin to be installed (via Package Control
+            // or https://github.com/clintberry/sublime-text-2-ini)
+            "syntax": "INI/INI",
+            "extensions": ["ini.dist", ".npmrc", "ini"],
+            "rules": [
+                {"file_path": ".*/git/(attributes|config|ignore)$"},
+                {"file_path": ".*\\\\git\\\\(attributes|config|ignore)$"}
+            ]
         },
         {
             "syntax": "ShellScript/Shell-Unix-Generic",
@@ -52,8 +54,37 @@
             ]
         },
         {
+            "syntax": "Ansible/Ansible",
+            "rules": [
+                {"file_path": ".*/roles/.*/.*/.*\\.(yml|yaml)$"},
+                {"file_path": ".*ansible.*/.*\\.(yml|yaml)$"},
+                // {"first_line": "^---$"}
+            ]
+        },
+        {
             "syntax": "YAML/YAML",
             "extensions": [".gemrc", "yml", "yml.dist"]
         },
+        {
+            "syntax": "MarkdownLight/MarkdownLight",
+            "extensions": ["md", "mdown", "markdn", "markdown", "changelog", "readme"]
+        },
+        {
+            "syntax": "Notes/notes",
+            "extensions": ["notes", "txt"],
+            "rules": [
+                {"file_name": "(notes|foo)$"}
+            ]
+        },
+        {
+            "syntax": "Advanced CSV/AdvancedCSV",
+            "extensions": ["csv"]
+        },
+        {
+            "syntax": "Djaneiro/Syntaxes/HTML (Django)",
+            "rules": [
+                {"file_path": ".*/templates/.*\\.(htm|html)$"}
+            ]
+        }
     ]
 }
