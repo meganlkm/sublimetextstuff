@@ -9,17 +9,62 @@
 		".gitconfig",
 		".gitignore",
 		".npmrc",
+		"ini",
 		"ini.dist"
 	],
 	"JSON":
 	[
+		".bowerrc",
 		".csslintrc",
+		".eslintrc",
 		".jscsrc",
-		".jshintrc"
+		".jshintrc",
+		"geojson"
+	],
+	"MarkdownLight":
+	[
+		"changelog",
+		"markdn",
+		"markdown",
+		"md",
+		"mdown",
+		"readme"
+	],
+	"Python":
+	[
+		"py3",
+		"pyw"
+	],
+	"Ruby":
+	[
+		"jbuilder",
+		"podspec",
+		"rabl",
+		"rake",
+		"rb",
+		"simplecov",
+		"thor"
 	],
 	"Shell-Unix-Generic":
 	[
-		"env"
+		"bash",
+		"env",
+		"sh",
+		"zsh"
+	],
+	"XML":
+	[
+		"xml.dist"
+	],
+	"YAML":
+	[
+		".gemrc",
+		"yml",
+		"yml.dist"
+	],
+	"notes":
+	[
+		"txt"
 	],
 	"requirementstxt":
 	[
